@@ -1,1 +1,4 @@
-console.log('Hello World!');
+import { loadMainPageContent } from "./page-loader";
+import './style.css';
+
+loadMainPageContent();
